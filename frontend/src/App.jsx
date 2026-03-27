@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://davidssb-thoraxai-api.hf.space";
 
 function DropZone({ onFile, preview }) {
   const [dragOver, setDragOver] = useState(false);
